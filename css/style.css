@@ -1,0 +1,118 @@
+/**************************
+*******Global css**********
+**************************/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{ 
+    width: 1140px;
+    margin: 0% auto;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+/***************************
+****Social media icon css***
+***************************/
+.container ul{
+    margin: 0%;
+    padding: 0%;
+}
+.container .info ul li{
+    list-style-type: none;
+    display: inline-block;
+    background: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 9px 5px 5px 0px;
+    transition: .6s;
+
+}
+.container .info ul li a i{
+    color: rgb(233, 69, 69);
+    font-size: 13px;
+    animation: rotate360 2s linear infinite ;
+}
+.container .info ul li:hover i{
+    transform: scale(1.4);
+    /* transform: rotate(45deg); */
+    transition: .6s;
+}
+
+/****************************
+****Footer css code start****
+****************************/
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 50px 50px 0px 0px;
+    background: #444;
+    color: aliceblue;
+    /* #96b880 */
+}
+.info img{
+    width: 150px;
+    height: 100px;
+}
+.footer-inner{
+    display: flex;
+    padding-bottom: 40px;
+}
+.info, .list-3{
+    flex-basis: 30%;
+}
+.list-1, .list-2{
+    flex-basis: 20%;
+}
+.info p{
+    width: 80%;
+    padding-bottom: 5px;
+}
+.list-1 ul li, .list-2 ul li{
+    list-style-type: none;
+    margin: 9px 0px;
+}
+.list-3 h4{
+    margin-bottom: 9px;
+}
+.list-3 p{
+    margin-bottom: 9px;
+}
+.footer-inner .list-3 p span{
+    font-weight: 600;
+}
+.bottom-footer{
+    background: #96b880;
+    color: aliceblue;
+    text-align: center;
+    padding: 21px;
+    display: flex;
+}
+.bottom-footer p{
+    flex-basis: 35%;
+    padding-top: 15px;
+    padding-left: 326px;
+}
+.bottom-footer p a{
+    text-decoration: none;
+    color: bisque;
+}
+.list-3 p a{
+    color: rgb(33, 206, 191);
+    text-decoration: none;
+}
+.bottom-footer img{
+    flex-basis: 65%;
+    width: 120px;
+    height: 50px;
+    padding-right: 366px;
+}
